@@ -1,0 +1,52 @@
+/*Блок popup*/
+.popup {
+    padding: 10px;
+}
+
+.popup__task-list {
+    padding: 0;
+}
+
+
+/*Блок Task*/
+.task {
+    display: flex;
+}
+
+.task__text, .task__select, .task__button {
+    margin-right: 5px;
+}
+
+.task {
+    list-style: none;
+}
+
+
+/*Блок icon-button*/
+.icon-button {
+    background: none;
+    border: none;
+}
+
+.icon-button__icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.icon-button__icon_check {
+    color: blue;
+}
+
+.icon-button__icon_delete {
+    color: red;
+}
+
+.icon-button__icon_add {
+    color: green;
+}
+
+/*Блок add-new-form*/
+.add-new-form {
+    display: flex;
+}

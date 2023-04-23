@@ -1,0 +1,17 @@
+{
+  "name": "Todo",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Todo list extension",
+  "icons": {
+    "128": "./icons/icon.png"
+  },
+  "action": {
+    "default_title": "Открыть список",
+    "default_icon": "./icons/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
